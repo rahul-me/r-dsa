@@ -1,5 +1,6 @@
 package org.example.linkedlist.insert;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 class Node {
@@ -50,6 +51,7 @@ public class InsertAtFirst {
 
     public static void main(String[] args) {
         LinkedList linkedList = new LinkedList();
+        ArrayList<Integer> list = new ArrayList<>();
         linkedList.print();
 
         linkedList.insertAtFront(5);

@@ -1,4 +1,4 @@
-package org.example.arrays.init.levelb;
+package org.example.arrays.init.level_b;
 
 import static org.example.arrays.init.util.Print.$1D;
 

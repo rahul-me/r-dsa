@@ -1,4 +1,4 @@
-package org.example.arrays.init.levelc;
+package org.example.arrays.init.level_c;
 
 import java.util.Scanner;
 

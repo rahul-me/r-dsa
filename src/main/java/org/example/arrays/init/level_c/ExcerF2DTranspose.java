@@ -1,8 +1,24 @@
-package org.example.arrays.init.levelc;
+package org.example.arrays.init.level_c;
 
 import org.example.arrays.init.util.Print;
 
 public class ExcerF2DTranspose {
+
+    /**
+     * Output
+     *
+     * Original Array
+     * printing array
+     * 1 2 3
+     * 4 5 6
+     * 7 8 9
+     * Transposed:
+     * printing array
+     * 1 4 7
+     * 2 5 8
+     * 3 6 9
+     * @param args
+     */
 
     public static void main(String[] args) {
         int[][] nums = new int[][]{

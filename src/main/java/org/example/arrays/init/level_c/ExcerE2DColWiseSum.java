@@ -1,7 +1,21 @@
-package org.example.arrays.init.levelc;
+package org.example.arrays.init.level_c;
 
 public class ExcerE2DColWiseSum {
-
+    /**
+     * Output:
+     *
+     * printing array
+     * 1 4 7
+     * 2 5 8
+     * 3 6 9
+     * 1 1 1
+     * Column 1 sum: 12
+     * Column 2 sum: 15
+     * Column 3 sum: 18
+     * Column 4 sum: 3
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int[][] nums = new int[][] {
                 {1,2,3,1},
