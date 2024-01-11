@@ -1,8 +1,8 @@
-package org.example.arrays.init.level_c;
+package org.example.$_1_arrays.init.level_c;
 
 import java.util.Scanner;
 
-public class ExcerB2DInput {
+public class ExcerC2DFindTarget {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -14,6 +14,8 @@ public class ExcerB2DInput {
             }
         }
         print(nums);
+
+
     }
 
     static void print(int[][] arr) {
@@ -25,5 +27,15 @@ public class ExcerB2DInput {
             }
             System.out.println();
         }
+    }
+
+    static boolean findTarget(int[][] nums, int target) {
+        for(int i = 0 ; i < nums.length; i++) {
+            for(int j = 0 ; j < nums[i].length; i++) {
+                if(target == nums[i][j])
+                    return true;
+            }
+        }
+        return false;
     }
 }

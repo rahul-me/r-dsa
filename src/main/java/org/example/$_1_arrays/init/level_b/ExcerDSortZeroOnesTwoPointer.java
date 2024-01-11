@@ -1,13 +1,13 @@
-package org.example.arrays.init.level_b;
+package org.example.$_1_arrays.init.level_b;
 
-import static org.example.arrays.init.util.Print.$1D;
+import org.example.$_1_arrays.init.util.Print;
 
 public class ExcerDSortZeroOnesTwoPointer {
     public static void main(String[] args) {
         int[] arr = new int[]{0,1,0,1,1,0,0,0,0};
-        $1D(arr);
+        Print.$1D(arr);
         arr = sortZeroOnes(arr);
-        $1D(arr);
+        Print.$1D(arr);
     }
     static int[] sortZeroOnes(int[] arr) {
 
@@ -23,7 +23,7 @@ public class ExcerDSortZeroOnesTwoPointer {
                 arr[k] = arr[j];
                 arr[j] = t;
             }
-            $1D(arr);
+            Print.$1D(arr);
             printps(i,j,k,arr);
             System.out.println("i: "+i);
             System.out.println("j: "+j);

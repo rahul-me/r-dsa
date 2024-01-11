@@ -1,6 +1,6 @@
-package org.example.arrays.init.level_c;
+package org.example.$_1_arrays.init.level_c;
 
-import org.example.arrays.init.util.Print;
+import org.example.$_1_arrays.init.util.Print;
 
 public class ExcerF2DTranspose {
 

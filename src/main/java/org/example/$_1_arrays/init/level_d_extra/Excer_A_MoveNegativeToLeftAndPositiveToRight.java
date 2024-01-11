@@ -1,6 +1,6 @@
-package org.example.arrays.init.level_d_extra;
+package org.example.$_1_arrays.init.level_d_extra;
 
-import org.example.arrays.init.util.Print;
+import org.example.$_1_arrays.init.util.Print;
 
 public class Excer_A_MoveNegativeToLeftAndPositiveToRight {
 

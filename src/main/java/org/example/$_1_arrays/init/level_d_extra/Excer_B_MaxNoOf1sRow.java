@@ -1,4 +1,4 @@
-package org.example.arrays.init.level_d_extra;
+package org.example.$_1_arrays.init.level_d_extra;
 
 public class Excer_B_MaxNoOf1sRow {
     public static void main(String[] args) {

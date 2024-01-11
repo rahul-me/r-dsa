@@ -1,4 +1,4 @@
-package org.example.arrays.init;
+package org.example.$_1_arrays.init;
 
 public class ArrayInit {
     public static void main(String[] args) {

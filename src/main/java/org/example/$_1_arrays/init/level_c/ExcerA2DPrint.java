@@ -1,6 +1,6 @@
-package org.example.arrays.init.level_c;
+package org.example.$_1_arrays.init.level_c;
 
-public class ExcerD2DRowWiseSum {
+public class ExcerA2DPrint {
 
     public static void main(String[] args) {
         int[][] nums = new int[][] {
@@ -10,9 +10,6 @@ public class ExcerD2DRowWiseSum {
         };
 
         print(nums);
-
-        printRowWiseSum(nums);
-
     }
 
     static void print(int[][] arr) {
@@ -23,17 +20,6 @@ public class ExcerD2DRowWiseSum {
                 System.out.print(arr[j][i]+" ");
             }
             System.out.println();
-        }
-    }
-
-    static void printRowWiseSum(int[][] arr) {
-        int sum;
-        for(int i =0 ; i < arr.length; i++) {
-            sum = 0;
-            for(int j = 0 ; j < arr[i].length ;j++) {
-                sum += arr[i][j];
-            }
-            System.out.println("Row "+(i+1)+" sum: "+sum);
         }
     }
 }

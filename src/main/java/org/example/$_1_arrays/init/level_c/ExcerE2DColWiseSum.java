@@ -1,4 +1,4 @@
-package org.example.arrays.init.level_c;
+package org.example.$_1_arrays.init.level_c;
 
 public class ExcerE2DColWiseSum {
     /**

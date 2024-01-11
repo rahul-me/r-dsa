@@ -1,4 +1,4 @@
-package org.example.arrays.init.util;
+package org.example.$_1_arrays.init.util;
 
 public class Print {
 
