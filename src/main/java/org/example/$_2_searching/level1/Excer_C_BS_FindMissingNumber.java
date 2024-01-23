@@ -21,6 +21,10 @@ public class Excer_C_BS_FindMissingNumber {
             }
         }
 
+        if(nums[e] - nums[s] == 1) {
+            return nums[e] + 1;
+        }
+
         return nums[s] + 1;
     }
 }
